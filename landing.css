@@ -1,0 +1,29 @@
+.flex-container1{
+    display:flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 300px;
+}
+
+.flex-container2{
+    display:flex;
+    height: 257px;  
+}
+    
+    
+.flex-container3{
+    display:flex;
+    background-color:  #e5e7eb;
+    height: 214px;  
+}
+
+.flex-container4{
+    display:flex;
+    height: 170px;  
+}
+
+footer{
+    background-color:  #1f2937;
+    color: #f9faf8; 
+    height: 65px;  
+}
