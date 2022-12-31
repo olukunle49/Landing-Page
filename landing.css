@@ -5,6 +5,7 @@ Body{font-family: Arial, Helvetica, sans-serif}
 
 .flex-container-header{
     display: flex;
+    flex-direction: row;
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -24,31 +25,23 @@ Body{font-family: Arial, Helvetica, sans-serif}
   
 
 .logo{
-width: 120px;height:100px;
+width: 10%;height: 10%;
 }
 
 .flex-container1{
     display:flex;
     background-color: #1f2937;
     color: #f9faf8;
-    
+    justify-content: center;
+    gap: 30px;
 }
 
 .flex-column-left{
     display: flex;
     flex-direction: column;
-    padding: 0 15px;
     max-width: 35%;
   }
 
-  .flex-column-right {
-    padding: 30px;
-    
-}
-.flex-column-right img {
-    width: 25%;
-    justify-content: flex-end;
-}
 
 .flex-container2{
     display:flex;
